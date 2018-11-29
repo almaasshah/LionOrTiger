@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#298219"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#666666"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+        <ImageView
+            android:id="@+id/lionImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:alpha="0.4"
+            android:background="#000"
+            android:onClick="imageViewIsTapped" />
+
+        <ImageView
+            android:id="@+id/lionImage10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#000"
+            android:onClick="imageViewIsTapped"
+            android:alpha="0.4" />
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Lion or Tiger?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
