@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import static java.lang.Integer.parseInt;
+
 public class MainActivity extends AppCompatActivity {
 
     enum Player{
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView tappedImageView = (ImageView) imageView;
         tappedImageView.setTranslationX(-2000);
 
-        int tiTag = int.parseInt(tappedImageView.getTag().toString());
+        int tiTag = Integer.parseInt(tappedImageView.getTag().toString());
         playerChoices[tiTag] = currentPlayer;
 
         if(currentPlayer == Player.ONE) {
